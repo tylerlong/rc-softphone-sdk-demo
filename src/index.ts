@@ -30,8 +30,9 @@ const main = async () => {
     });
 
     // repeatedly stream an audio file
+    let count = 0;
     const streamAudio = async () => {
-      console.log('audio streaming started');
+      console.log('audio streaming started', ++count);
       const streamer = callSession.streamAudio(readFileSync('test.wav'));
       return new Promise<void>((resolve) => {
         streamer.once('finished', () => {

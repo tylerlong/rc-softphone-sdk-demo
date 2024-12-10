@@ -49,3 +49,7 @@ play -t raw -b 16 -r 16000 -e signed-integer test.wav
 ```
 
 For more information, please refer to [audio formats](https://github.com/ringcentral/ringcentral-softphone-ts?tab=readme-ov-file#audio-formats).
+
+## Issues
+
+The 8th audio streaming becomes silent.
