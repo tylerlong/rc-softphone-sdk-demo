@@ -8,16 +8,17 @@
     "lint": "tsc --jsx react --skipLibCheck --noEmit --target ESNext --moduleResolution NodeNext --module NodeNext ./src/*.ts && eslint . --fix && prettier --write . && sort-package-json"
   },
   "dependencies": {
-    "ringcentral-softphone": "^1.0.2"
+    "ringcentral-softphone": "^1.1.10"
   },
   "devDependencies": {
-    "@types/node": "^22.10.1",
+    "@types/node": "^24.0.3",
     "dotenv-override-true": "^6.2.2",
     "eslint-config-tyler": "^0.2.2",
-    "sort-package-json": "^2.12.0",
-    "tsx": "^4.19.2",
+    "sort-package-json": "^3.2.1",
+    "tsx": "^4.20.3",
     "ttpt": "^0.13.0",
-    "typescript": "^5.7.2",
-    "yarn-upgrade-all": "^0.7.4"
-  }
+    "typescript": "^5.8.3",
+    "yarn-upgrade-all": "^0.7.5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
